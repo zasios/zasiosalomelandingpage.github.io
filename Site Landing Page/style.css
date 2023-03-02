@@ -1,0 +1,142 @@
+p {
+    margin: 10px;
+    font-size: 22px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    background-color: #F4F4F4;
+    font-family: poppins, serif;
+}
+
+.card {
+}
+
+.image-illustrative {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 4px 3px 7px #555;
+}
+
+.title-information {
+    margin: 0 10px 10px 10px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title-attach {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.style-icones {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.style-icones-ZaS-Salome {
+    height: 40px;
+}
+
+.style-Drapeau {
+    height: 40px;
+}
+
+.icones-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-illustration {
+    margin: 10px;
+}
+
+.style-image-illustration {
+    height: 500px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-illustration {
+    background-color: white;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 3px 10px #555;
+}
+
+.border-separation {
+    border-bottom: solid black;
+    border-top: solid black;
+    margin: 50px;
+}
+
+.group-image-price-attach {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #CECECC;
+}
+
+.image-price-attach {
+    width: 280px;
+}
+
+.style-image-attach {
+    height: 400px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 4px 3px 10px #555;
+}
+
+.price-attach {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.title-image {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.footer-attach {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.title-footer {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
